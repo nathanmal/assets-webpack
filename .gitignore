@@ -1,0 +1,14 @@
+## IDE files
+.sublimeproject
+.sass-cache
+
+## OS Files
+[Tt]humbs.db
+[Dd]esktop.ini
+*.DS_store
+.DS_store?
+.Trashes
+
+## No dist or module files
+dist/
+node_modules/
