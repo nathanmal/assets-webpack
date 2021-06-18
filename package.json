@@ -1,0 +1,57 @@
+{
+  "name": "assets-webpack",
+  "version": "1.0.0",
+  "description": "Webpack setup for building web assets using ES6 and SCSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config ./webpack.config.js --mode development",
+    "dev:watch": "webpack --config ./webpack.config.js --mode development --watch",
+    "build": "webpack --config ./webpack.config.js --mode production",
+    "build:watch": "webpack --config ./webpack.config.js --mode production --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanmal/assets-webpack.git"
+  },
+  "keywords": [
+    "Webpack",
+    "JavaScript",
+    "ES6",
+    "SCSS",
+    "Assets",
+    "Images",
+    "Build",
+    "Tool"
+  ],
+  "author": "Nathan Malachowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathanmal/assets-webpack/issues"
+  },
+  "homepage": "https://github.com/nathanmal/assets-webpack#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "autoprefixer": "^9.8.6",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^5.2.6",
+    "css-minimizer-webpack-plugin": "^2.0.0",
+    "file-loader": "^6.2.0",
+    "imports-loader": "^3.0.0",
+    "meow": "^10.0.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "node-sass": "^6.0.0",
+    "postcss": "^8.3.5",
+    "postcss-loader": "^6.1.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^2.0.0",
+    "trim-newlines": "^4.0.2",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.39.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {}
+}
