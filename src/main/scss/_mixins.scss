@@ -1,0 +1,37 @@
+/* Responsive mixins
+***********************************************************/
+@mixin mobile() {
+  @media only screen and ( max-width: $break-mobile ) { @content; }
+}
+
+@mixin mobile_up() {
+  @media only screen and ( min-width: $break-mobile + 1 ) { @content; }
+}
+
+@mixin tablet() {
+  @media only screen and ( min-width: $break-mobile + 1) and ( max-width: $break-tablet - 1 ) { @content; }
+}
+
+@mixin tablet_up() {
+  @media only screen and ( min-width: $break-mobile + 1) { @content; }
+}
+
+@mixin tablet_down(){
+  @media only screen and ( max-width: $break-tablet - 1 ) { @content; }
+}
+
+@mixin desktop() {
+  @media only screen and ( min-width: $break-desktop + 1 ) and ( max-width: $break-large - 1 ) { @content; }
+}
+
+@mixin desktop_up() {
+  @media only screen and ( min-width: $break-desktop + 1 )  { @content; }
+}
+
+@mixin desktop_down() {
+  @media only screen and  ( max-width: $break-large - 1 )  { @content; }
+}
+
+@mixin desktop_large(){
+  @media only screen and ( min-width: $break-large ) { @content; }
+}

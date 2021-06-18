@@ -1,0 +1,55 @@
+// Define SASS variables here
+
+/* Breakpoints
+***********************************************************/
+
+$break-mobile:        768px;  // 768
+$break-tablet:        992px;  // 992
+$break-desktop:       1200px; // 1200
+$break-large:         1440px; // 1440
+
+/* Colors
+***********************************************************/
+
+$color-transparent:   'transparent';
+$color-black:         #000000;
+$color-gray:          #888899;
+$color-white:         #FFFFFF;
+$color-red:           #FF2222;
+$color-green:         #22FF22;
+$color-blue:          #2222FF;
+
+/* Fonts
+***********************************************************/
+
+// main body font
+$font-body:           'Open Sans','Arial', sans-serif;
+$font-body-alt:       $font-body;
+
+// heading font
+$font-heading:        'Roboto', 'Helvetica Neue', sans-serif;
+$font-heading-alt:    $font-heading;
+
+// monospaced font
+$font-mono:           'Monaco', Courier, monospace;
+
+// font sizes (1.333 modular scale)
+$font-size-1:  0.5625rem;
+$font-size-2:  0.750rem;
+$font-size-3:  1.000rem;
+$font-size-4:  1.333rem;
+$font-size-5:  1.777rem;
+$font-size-6:  2.370rem;
+$font-size-7:  3.160rem;
+$font-size-8:  4.213rem;
+$font-size-9:  5.618rem;
+$font-size-10: 7.4915rem;
+
+// headings
+$font-size-h1: $font-size-8;
+$font-size-h2: $font-size-7;
+$font-size-h3: $font-size-6;
+$font-size-h4: $font-size-5;
+$font-size-h5: $font-size-4;
+$font-size-h6: $font-size-3;
+
